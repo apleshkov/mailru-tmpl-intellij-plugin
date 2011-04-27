@@ -1,0 +1,5 @@
+##func1()##
+---[EXPECTED]---
+T:SHORT_STATEMENT
+    T:FUNCTION_CALL
+        T:FUNCTION -- func1

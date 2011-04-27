@@ -1,0 +1,6 @@
+##SetVars(var=1)##
+---[EXPECTED]---
+T:SHORT_STATEMENT
+    T:SETVARS -- SetVars(var=1)
+        T:EXPRESSION
+            T:NUMBER -- 1

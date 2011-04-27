@@ -1,0 +1,4 @@
+##var##
+---[EXPECTED]---
+T:SHORT_STATEMENT
+    T:VARIABLE -- var

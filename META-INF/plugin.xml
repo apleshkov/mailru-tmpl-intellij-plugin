@@ -1,0 +1,25 @@
+<idea-plugin version="2">
+    <name>Mail.ru THTML</name>
+    <description>Mail.ru THTML</description>
+    <version>1.0</version>
+    <vendor>Mail.ru</vendor>
+    <idea-version since-build="95"/>
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileTypeFactory implementation="com.mailru.plugins.thtml.lang.TFileTypeFactory" />
+        <!--<syntaxHighlighter key="TMPL" implementationClass="com.mailru.plugins.thtml.lang.highlighter.TSyntaxHighlighter" />-->
+        <lang.parserDefinition language="TMPL" implementationClass="com.mailru.plugins.thtml.lang.TParserDefinition" />
+    </extensions>
+</idea-plugin>

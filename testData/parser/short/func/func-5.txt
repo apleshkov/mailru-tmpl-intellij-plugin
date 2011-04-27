@@ -1,0 +1,17 @@
+##func5(XYZ,##arg1##,##A\(B\)##,##ns/A\(##myvar##\)##)##
+---[EXPECTED]---
+T:SHORT_STATEMENT
+    T:FUNCTION_CALL
+        T:FUNCTION -- func5
+        T:EXPRESSION
+            T:VARIABLE -- XYZ
+        T:EXPRESSION
+            T:VARIABLE -- ##arg1##
+        T:FUNCTION_CALL
+            T:FUNCTION -- A
+            T:EXPRESSION
+                T:VARIABLE -- B
+        T:FUNCTION_CALL
+            T:FUNCTION -- ns/A
+            T:EXPRESSION
+                T:VARIABLE -- ##myvar##

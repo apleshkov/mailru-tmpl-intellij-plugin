@@ -1,0 +1,6 @@
+##func4(1*2)##
+---[EXPECTED]---
+T:SHORT_STATEMENT
+    T:FUNCTION_CALL
+        T:FUNCTION -- func4
+        T:STRING -- 1*2

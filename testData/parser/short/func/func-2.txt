@@ -1,0 +1,9 @@
+##ns1/func2(1+2)##
+---[EXPECTED]---
+T:SHORT_STATEMENT
+    T:FUNCTION_CALL
+        T:FUNCTION -- ns1/func2
+        T:EXPRESSION
+            T:NUMBER -- 1
+            T:OPERATOR -- +
+            T:NUMBER -- 2

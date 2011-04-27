@@ -1,0 +1,8 @@
+##err1(,)##
+---[EXPECTED]---
+T:SYNTAX_ERROR
+    T:SYNTAX_ERROR
+        T:FUNCTION -- err1
+T:COMMA
+T:RPAREN
+T:HTML

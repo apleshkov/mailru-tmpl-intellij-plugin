@@ -1,0 +1,7 @@
+##func3(##arg2##)##
+---[EXPECTED]---
+T:SHORT_STATEMENT
+    T:FUNCTION_CALL
+        T:FUNCTION -- func3
+        T:EXPRESSION
+            T:VARIABLE -- ##arg2##

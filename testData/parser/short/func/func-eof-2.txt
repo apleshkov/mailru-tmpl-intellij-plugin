@@ -1,0 +1,3 @@
+##eof2(1
+---[EXPECTED]---
+T:HTML

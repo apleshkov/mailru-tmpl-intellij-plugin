@@ -1,0 +1,7 @@
+##var1##var2##var3##
+---[EXPECTED]---
+T:SHORT_STATEMENT
+    T:VARIABLE -- var1
+T:HTML
+T:SHORT_STATEMENT
+    T:VARIABLE -- var3

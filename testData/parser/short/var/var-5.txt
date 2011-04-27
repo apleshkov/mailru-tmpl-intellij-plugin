@@ -1,0 +1,6 @@
+##
+var1##
+---[EXPECTED]---
+T:HTML
+T:HTML
+T:HTML
