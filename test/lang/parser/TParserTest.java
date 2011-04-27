@@ -35,6 +35,7 @@ public class TParserTest extends TDirectoryTestCase {
                     TElementTypes.HTML,
                     TElementTypes.SHORT_STATEMENT,
                     TElementTypes.FUNCTION_CALL,
+                    TElementTypes.SETVARS,
                     TElementTypes.SYNTAX_ERROR,
                     TElementTypes.EXPRESSION,
                     TTokenTypes.UNKNOWN_SYMBOL,

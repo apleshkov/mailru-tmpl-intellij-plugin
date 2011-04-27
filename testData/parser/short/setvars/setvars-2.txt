@@ -1,6 +1,6 @@
-##SetVars(var=1)##
+##SetVars(var=##var##)##
 ---[EXPECTED]---
 T:SHORT_STATEMENT
     T:SETVARS
         T:EXPRESSION
-            T:NUMBER -- 1
+            T:VARIABLE -- ##var##
